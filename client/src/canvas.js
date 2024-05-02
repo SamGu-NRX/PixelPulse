@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:3000'); // Connect to server
+// const socket = io('http://localhost:3000'); // Connect to server
 
 function Canvas() {
     const canvasRef = useRef(null);
